@@ -41,4 +41,4 @@ sc.close();
 }
 ```
 ##output
-[output(Experiment-1(B).png)]
+(output[Experiment-1(B).png])
