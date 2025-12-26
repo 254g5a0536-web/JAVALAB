@@ -29,6 +29,9 @@ System.out.println("Default boolean value:"+obj.bool);
 
 ![output](Experiment-1(A).png)
 ##1b
+
+
+
 ```java
 import java.util.Scanner;
 class QuadraticEquations{
