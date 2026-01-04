@@ -24,4 +24,4 @@ System.out.println("Default boolean value:"+obj.bool);
 
 #OUTPUT
   
-  ![OUTPUT](EXPERIMENT-1(A).png)
+  ![output](EXPERIMENT-1(A).png)
