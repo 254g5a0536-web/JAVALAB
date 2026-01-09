@@ -171,4 +171,4 @@ s1.display();
 ```
 # output
 
-![output]()
+![output](Experiment-2/EXPERIMENT-2(C).png)
