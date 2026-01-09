@@ -143,4 +143,4 @@ System.out.println("Result of adding three integers values:"+obj.add(1,2,3));
 
 # output
 
-![output]()
+![output](Experiment-2/EXPERIMENT-2(B).png)
