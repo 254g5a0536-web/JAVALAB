@@ -87,3 +87,27 @@ sc.close();
 ![output](EXPERIMENTS/Experiment-1(B).png)
 
 
+
+
+# Expereiment-2
+## Experiment-2(A)
+```java
+
+class MyClass{
+void displayMessage(){
+System.out.println("Welcome to java lab");
+}
+int add (int a , int b){
+return a+b;
+}
+public static void main(String args[]){
+MyClass obj=new MyClass();
+obj.displayMessage();
+int result =obj.add(10,20);
+System.out.println("Sum"+result);
+}
+}
+```
+# output
+
+![output]()
