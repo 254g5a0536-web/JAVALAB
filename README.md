@@ -144,3 +144,31 @@ System.out.println("Result of adding three integers values:"+obj.add(1,2,3));
 # output
 
 ![output](Experiment-2/EXPERIMENT-2(B).png)
+
+
+# Experiment-2(C)
+```java
+
+class Student{
+String name;
+int age;
+int marks;
+Student(String n,int a,int m){
+name=n;
+age=a;
+marks=m;
+}
+void display(){
+System.out.println("Name:"+name);
+System.out.println("Age:"+age);
+System.out.println("Marks:"+marks);
+}
+public static void main(String args[]){
+Student s1=new Student("ALICE",20,85);
+s1.display();
+}
+}
+```
+# output
+
+![output]()
