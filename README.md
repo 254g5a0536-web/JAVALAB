@@ -83,6 +83,6 @@ sc.close();
 
 
 
-![output]()
+![output](EXPERIMENTS/Experiment-1(B).png)
 
 
