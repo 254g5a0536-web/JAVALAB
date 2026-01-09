@@ -24,7 +24,7 @@ System.out.println("Default boolean value:"+obj.bool);
 }
 }
 ```
-## output:
+## OUTPUT:
 
 
 
@@ -79,7 +79,7 @@ sc.close();
 }
 ```
 
-## output
+## OUTPUT:
 
 
 
@@ -108,7 +108,7 @@ System.out.println("Sum"+result);
 }
 }
 ```
-# output
+# OUTPUT:
 
 
 
@@ -141,7 +141,7 @@ System.out.println("Result of adding three integers values:"+obj.add(1,2,3));
 }
 ```
 
-# output
+# OUTPUT:
 
 ![output](Experiment-2/EXPERIMENT-2(B).png)
 
@@ -169,7 +169,7 @@ s1.display();
 }
 }
 ```
-# output
+# OUTPUT:
 
 ![output](Experiment-2/EXPERIMENT-2(C).png)
 
@@ -214,6 +214,8 @@ f.generate();
 }
 }
 ```
-# output
+# OUTPUT:
+
+
 ![output](AdditionalExperiments/AdditionalExperiment-1.png)
 
