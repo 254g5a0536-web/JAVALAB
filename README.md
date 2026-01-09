@@ -28,4 +28,4 @@ System.out.println("Default boolean value:"+obj.bool);
 
 
 
-![output]()
+![output](EXPERIMENTS/Experiment-1(A).png)
