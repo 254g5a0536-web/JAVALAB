@@ -1,5 +1,6 @@
 # JAVALAB
-## 1a:
+## Experiment-1
+##  Experiment-1(A)
 ```java
 class PrimitiveDataTypes{
 byte b;
@@ -35,7 +36,7 @@ System.out.println("Default boolean value:"+obj.bool);
 
 
 
-## 1b
+## Experiment-1(B)
 ```java
 import java.util.Scanner;
 class QuadraticEquations{
