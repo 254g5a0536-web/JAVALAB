@@ -110,4 +110,7 @@ System.out.println("Sum"+result);
 ```
 # output
 
-![output]()
+
+
+
+![output](Experiment-2/EXPERIMENT-2(A).png)
