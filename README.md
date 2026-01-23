@@ -276,6 +276,6 @@ class Student {
 # OUTPUT
 
 
-![output]()
+![output](Experiment-3/Experimetn-3(A).png)
 
 
