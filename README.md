@@ -279,3 +279,97 @@ class Student {
 ![output](Experiment-3/Experimetn-3(A).png)
 
 
+
+
+
+## EXPERIMENT-3
+##  Experiment-3(B)
+### BinarySearch Class
+```java
+import java.util.Scanner;
+
+class BinarySearch {
+    int[] arr;
+    int n;
+
+    BinarySearch(int size) {
+        n = size;
+        arr = new int[n];
+    }
+
+    void setList() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter " + n + " elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    void getList() {
+        System.out.print("Elements in ascending order: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    int binarySearch(int key) {
+        int low = 0, high = n - 1;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+
+            if (arr[mid] == key)
+                return mid;
+            else if (arr[mid] < key)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        return -1;
+    }
+}
+```
+### MainClass
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of elements: ");
+        int size = sc.nextInt();
+
+        BinarySearch bs = new BinarySearch(size);
+
+        bs.setList();
+        bs.getList();
+
+        System.out.print("Enter the element to search: ");
+        int key = sc.nextInt();
+
+        int index = bs.binarySearch(key);
+
+        if (index == -1)
+            System.out.println("Element not found");
+        else
+            System.out.println("Element found at index: " + index);
+    }
+}
+```
+![output]()
+
+
