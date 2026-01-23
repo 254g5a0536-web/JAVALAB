@@ -342,7 +342,10 @@ class BinarySearch {
     }
 }
 ```
+
+
 ### MainClass
+```java
 import java.util.Scanner;
 
 class Main {
@@ -370,6 +373,9 @@ class Main {
     }
 }
 ```
-![output]()
+
+
+
+![output](Experiment-3/Experiment-3(B).png)
 
 
