@@ -470,3 +470,40 @@ class Substring {
 
 
 ![output](AdditionalExperiments/AdditionalExperiment-1.png)
+
+
+
+
+# ADDITIONALEXPERIMENTS
+
+## AdditionalExperiment-3
+
+```java
+
+import java.util.Scanner;
+
+class Palindrome {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a String:");
+        String str= sc.nextLine();
+        int start = 0;
+        int end = str.length() - 1;
+        while (start < end) {
+            if (str.charAt(start) != str.charAt(end)) {
+                System.out.println(str+" is not a palindrome");
+                return;
+            }
+
+            start++;
+            end--;
+        }
+        System.out.println(str+" is a palindrome");
+    }
+}
+```
+
+
+![output]()
+
+
