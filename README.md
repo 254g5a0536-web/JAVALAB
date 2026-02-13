@@ -678,3 +678,68 @@ public class TestVehicle {
 
 
 ![output](Experiment-4/Experiment-4(B).png)
+
+
+
+
+## EXPERIMENT-4
+##  Experiment-4(C)
+### Figure Class
+```java
+public abstract class Figure {
+    double dim1;
+    double dim2;
+
+    Figure(double dim1, double dim2) {
+        this.dim1 = dim1;
+        this.dim2 = dim2;
+    }
+
+    
+    abstract double area();
+}
+```
+### Rectangle Class
+```java
+public class Rectangle extends Figure {
+
+    Rectangle(double length, double breadth) {
+        super(length, breadth);
+    }
+
+    double area() {
+        return dim1 * dim2;
+    }
+}
+```
+### Triangle Class
+```java
+public class Triangle extends Figure {
+
+    
+    Triangle(double base, double height) {
+        super(base, height);
+    }
+
+   
+    double area() {
+        return 0.5 * dim1 * dim2;
+    }
+}
+```
+### TestFigure Class
+```java
+public class TestFigure {
+    public static void main(String[] args) {
+
+        Figure f1 = new Rectangle(10, 5);
+        System.out.println("Area of Rectangle = " + f1.area());
+
+        Figure f2 = new Triangle(8, 6);
+        System.out.println("Area of Triangle = " + f2.area());
+    }
+}
+```
+
+
+![output]()
