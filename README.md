@@ -553,3 +553,71 @@ public class PerfectNumber {
 
 
 
+
+## EXPERIMENT-4
+##  Experiment-4(A)
+### Person Class
+
+```java
+public class Person {
+    String name;
+    int age;
+
+    
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+   
+    void displayPersonDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+```
+### Employee Class
+```java
+public class Employee extends Person {
+    double annualSalary;
+    int yearOfJoining;
+    String nationalInsuranceNumber;
+
+   
+    Employee(String name, int age, double annualSalary, int yearOfJoining, String nationalInsuranceNumber) {
+        super(name, age); 
+        this.annualSalary = annualSalary;
+        this.yearOfJoining = yearOfJoining;
+        this.nationalInsuranceNumber = nationalInsuranceNumber;
+    }
+
+    
+    void displayEmployeeDetails() {
+        displayPersonDetails(); 
+        System.out.println("Annual Salary: " + annualSalary);
+        System.out.println("Year of Joining: " + yearOfJoining);
+        System.out.println("National Insurance Number: " + nationalInsuranceNumber);
+    }
+}
+```
+### TestEmployee Class
+public class TestEmployee {
+    public static void main(String[] args) {
+
+        Employee emp1 = new Employee(
+                "Rahul",
+                28,
+                500000.00,
+                2022,
+                "NI123456A"
+        );
+
+        emp1.displayEmployeeDetails();
+    }
+}
+```
+
+
+![output]()
+
+
