@@ -282,7 +282,7 @@ class Student {
 
 
 
-## EXPERIMENT-3
+
 ##  Experiment-3(B)
 ### BinarySearch Class
 ```java
@@ -385,7 +385,7 @@ class Main {
 
 
 
-## EXPERIMENT-3
+
 ##  Experiment-3(C)
 ```java
 import java.util.Scanner;
@@ -637,7 +637,7 @@ public class TestEmployee {
 
 
 
-## EXPERIMENT-4
+
 ##  Experiment-4(B)
 ### Bicycle Class
 ```java
@@ -699,7 +699,7 @@ public class TestVehicle {
 
 
 
-## EXPERIMENT-4
+
 ##  Experiment-4(C)
 ### Figure Class
 ```java
