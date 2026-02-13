@@ -374,6 +374,8 @@ class Main {
 }
 ```
 
+## OUTPUT
+
 
 
 ![output](Experiment-3/Experiment-3(B).png)
@@ -424,6 +426,8 @@ class BubbleSortExample {
 ```
 
 
+## OUTPUT
+
 
 
 
@@ -466,6 +470,8 @@ class Substring {
 }
 ```
 
+## OUTPUT
+
 
 
 
@@ -502,6 +508,8 @@ class Palindrome {
     }
 }
 ```
+
+## OUTPUT
 
 
 
@@ -543,6 +551,8 @@ public class PerfectNumber {
     }
 }
 ```
+
+## OUTPUT
 
 
 
@@ -618,9 +628,13 @@ public class TestEmployee {
 }
 
 ```
+## OUTPUT
+
 
 
 ![output](Experiment-4/Experiment-4(A).png)
+
+
 
 
 ## EXPERIMENT-4
@@ -674,6 +688,9 @@ public class TestVehicle {
     }
 }
 ```
+
+## OUTPUT
+
 
 
 
@@ -740,6 +757,8 @@ public class TestFigure {
     }
 }
 ```
+## OUTPUT
+
 
 
 ![output](Experiment-4/Experiment-4(C).png)
