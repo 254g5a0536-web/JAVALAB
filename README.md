@@ -623,3 +623,56 @@ public class TestEmployee {
 ![output](Experiment-4/Experiment-4(A).png)
 
 
+## EXPERIMENT-4
+##  Experiment-4(B)
+### Bicycle Class
+```java
+public class Bicycle {
+    String pedalType;
+
+    void showBicycleInfo() {
+        System.out.println("This is a bicycle with pedals.");
+        System.out.println("Pedal Type: " + pedalType);
+    }
+}
+```
+### MotorBike Class
+```java
+public class Motorbike extends Bicycle {
+    int engineCapacity;
+
+    void showMotorbikeInfo() {
+        System.out.println("This motorbike has an engine.");
+        System.out.println("Engine Capacity: " + engineCapacity + " cc");
+    }
+}
+```
+### ElectricBike Class
+```java
+public class ElectricBike extends MotorBike 
+
+    void showElectricBikeInfo() {
+        System.out.println("This electric bike has an electric motor and battery.");
+        System.out.println("Battery Capacity: " + batteryCapacity + " Wh");
+    }
+}
+```
+### TestVehicle class
+```java
+public class TestVehicle {
+    public static void main(String[] args) {
+
+        ElectricBike eBike = new ElectricBike();
+
+        eBike.pedalType = "Standard Pedals";
+        eBike.engineCapacity = 150;
+        eBike.batteryCapacity = 3000;
+
+        eBike.showBicycleInfo();       
+        eBike.showMotorbikeInfo();     
+        eBike.showElectricBikeInfo();  
+    }
+}
+```
+
+![output]()
