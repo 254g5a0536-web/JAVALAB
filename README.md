@@ -1055,4 +1055,5 @@ public class MultipleCatchExample {
 ```
 ## OUTPUT:
 
-![output]()
+
+![output](Experiment-6/Experiment-6(B).png)
