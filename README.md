@@ -862,7 +862,62 @@ public class TestSort {
     }
 }
 ```
+## OUTPUT:
 
 
 
 ![output](Experiment-5/Experiment-5(A).png)
+
+
+
+
+## EXPERIMENT-5
+##  Experiment-5(B)
+### Vehicle Class
+```java
+class Vehicle {
+    void run() {
+        System.out.println("Vehicle is running");
+    }
+}
+```
+### Bike Class
+```java
+class Bike extends Vehicle {
+    void run() {
+        System.out.println("Bike is running on two wheels");
+    }
+}
+```
+### Car Class
+```java
+class Car extends Vehicle {
+    void run() {
+        System.out.println("Car is running on four wheels");
+    }
+}
+```
+### TestVehicle Class
+```java
+public class TestVehicle {
+    public static void main(String[] args) {
+
+        Vehicle v;
+
+        v = new Car();
+        v.run();
+
+        v = new Bike();
+        v.run();
+
+        v = new Vehicle();
+        v.run();
+    }
+}
+```
+
+## OUTPUT:
+
+
+
+![output]()
