@@ -947,4 +947,5 @@ public class DeleteStringBuffer {
 ## OUTPUT:
 
 
-![output]()
+
+![output](Experiment-5/Experiment-5(C).png)
