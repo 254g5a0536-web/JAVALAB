@@ -1115,5 +1115,6 @@ public class MultipleExceptionExample {
 ```
 ## OUTPUT:
 
-![output]()
+
+![output](Experiment-6/Experiment-6(C).png)
 
