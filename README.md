@@ -994,4 +994,5 @@ public class ExceptionArray {
 ## OUTPUT:
 
 
-![output]()
+
+![output](Experiment-6/Experiment-6(A).png)
