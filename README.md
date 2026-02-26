@@ -1230,6 +1230,6 @@ public class TestThreads {
 ```
 ## OUTPUT:
 
-![output]()
+![output](Experiment-7/Experiment-7(B).png)
 
 
