@@ -1164,4 +1164,5 @@ public class UserRegistration {
 
 ## OUTPUT:
 
-![output]()
+
+![output](Experiment-7/Experiment-7(A).png)
