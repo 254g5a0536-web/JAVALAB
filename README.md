@@ -1118,3 +1118,50 @@ public class MultipleExceptionExample {
 
 ![output](Experiment-6/Experiment-6(C).png)
 
+
+
+
+## EXPERIMENT-7
+##  Experiment-7(A)
+### UserRegistration Class
+```java
+class InvalidCountryException extends Exception {
+    InvalidCountryException() {
+        super();
+    }
+
+    InvalidCountryException(String message) {
+        super(message);
+    }
+}
+
+public class UserRegistration {
+    void registerUser(String userName, String userCountry) throws InvalidCountryException {
+        if (!userCountry.equals("India")) {
+            throw new InvalidCountryException("User outside India cannot be registered");
+        } else {
+            System.out.println("User registration done successfully");
+        }
+    }
+
+    public static void main(String[] args) {
+        UserRegistration ur = new UserRegistration();
+
+        try {
+            ur.registerUser("Ravi", "USA");
+        } catch (InvalidCountryException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            ur.registerUser("Anita", "India");
+        } catch (InvalidCountryException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+```
+
+## OUTPUT:
+
+![output]()
