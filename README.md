@@ -1278,6 +1278,7 @@ public class ThreadDemo {
 ```
 ## OUTPUT:
 
-![output]()
+
+![output](Experiment-7/Experiment-7(C).png)
 
 
