@@ -1166,3 +1166,70 @@ public class UserRegistration {
 
 
 ![output](Experiment-7/Experiment-7(A).png)
+
+
+##  Experiment-7(B)
+### GoodMorning Class
+```java
+class GoodMorningThread extends Thread {
+    public void run() {
+        try {
+            while (true) {
+                System.out.println("Good Morning");
+                Thread.sleep(1000);
+            }
+        } catch (InterruptedException e) {
+            System.out.println(e);
+        }
+    }
+}
+```
+### HelloThread Class
+```java
+class HelloThread extends Thread {
+    public void run() {
+        try {
+            while (true) {
+                System.out.println("Hello");
+                Thread.sleep(2000);
+            }
+        } catch (InterruptedException e) {
+            System.out.println(e);
+        }
+    }
+}
+```
+### WelcomeThread Class
+```java
+class WelcomeThread extends Thread {
+    public void run() {
+        try {
+            while (true) {
+                System.out.println("Welcome");
+                Thread.sleep(3000);
+            }
+        } catch (InterruptedException e) {
+            System.out.println(e);
+        }
+    }
+}
+```
+### TestThread Class
+```java
+public class TestThreads {
+    public static void main(String[] args) {
+        GoodMorningThread t1 = new GoodMorningThread();
+        HelloThread t2 = new HelloThread();
+        WelcomeThread t3 = new WelcomeThread();
+
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
+```
+## OUTPUT:
+
+![output]()
+
+
